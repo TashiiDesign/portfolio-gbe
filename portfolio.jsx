@@ -7,6 +7,39 @@ export default function Portfolio() {
   // Sample project data - easily editable
   const projects = [
     {
+      title: "GB METECC Branding and Launch",
+      tags: ["Branding", "Market Research", "Marketing Strategy"],
+      overview:
+        "Established a distinct brand identity and launch strategy for GB METECC, helping SMEs navigate EMC compliance and avoid costly mistakes.",
+      methods: [
+        "Stakeholder interviews and observational research",
+        "Market and competitor analysis",
+        "Customer persona and empathy map creation",
+        "Defined brand purpose, values and positioning",
+        "Developed visual identity with logo and colour palette",
+        "Designed website landing page and launch materials",
+      ],
+      images: [
+        {
+          src: "/placeholder.svg?height=400&width=600",
+          alt: "Brand moodboard",
+          caption: "Moodboard exploring initial concepts for the brand",
+        },
+        {
+          src: "/placeholder.svg?height=400&width=600",
+          alt: "Logo variations",
+          caption: "Iterations of the logo and colour palette",
+        },
+        {
+          src: "/placeholder.svg?height=400&width=600",
+          alt: "Launch assets",
+          caption: "Final landing page and promotional material",
+        },
+      ],
+      reflections:
+        "Building this brand from the ground up deepened my understanding of how thorough research and collaboration shape a compelling identity and marketing message.",
+    },
+    {
       title: "GB METECC Website & Customer Portal",
       tags: ["UX Research", "Stakeholder Collaboration", "Customer Portal"],
       overview:
